@@ -6,3 +6,30 @@ Author: David Schmid
 Author URI: https://hexcode.ch
 Version: 0.5
 */
+
+html{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 1rem;
+}
+button{
+    font-size: 1rem;
+    font-family: monospace;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+button:hover{
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+a{
+    color: rgb(136, 219, 11);
+}
